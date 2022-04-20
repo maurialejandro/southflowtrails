@@ -1,0 +1,86 @@
+
+<header>
+<!-- genrar barra de navegacion con home nosotros nuestros proyectos contacto -->
+<div class="d-flex justify-content-center">
+
+    <img src="../assets/icon.jpg" width="170" >
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/home">South Flow Trails</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/proyre">Proyectos realizados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+    <router-outlet></router-outlet>
+</main>
+
+<!-- footer de la pagina -->
+<footer class="text-center text-lg-start" style="background-color:  #ecba15 ;">
+     <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+              <i class="bi bi-facebook"></i>
+          </a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="bi bi-instagram"></i>
+        </a>     
+      </section>
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          SOUTH FLOW TRAILS
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contacto</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                  <a href="#!" class="text-white">mail@mail.com</a>
+              </li>
+              <li>
+                  <a href="#!" class="text-white">+569355245</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Los Lagos, Chile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Links -->
+    </div>
+  
+</footer>
+
